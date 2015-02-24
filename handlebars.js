@@ -2453,12 +2453,12 @@
         var __exports__;
         var isArray = __dependency1__.isArray;
 
-        try {
-            var SourceMap = require('source-map'),
-                SourceNode = SourceMap.SourceNode;
-        } catch (err) {
+//        try {
+//            var SourceMap = require('source-map'),
+//                SourceNode = SourceMap.SourceNode;
+//        } catch (err) {
             /* istanbul ignore next: tested but not covered in istanbul due to dist build  */
-            SourceNode = function(line, column, srcFile, chunks) {
+            var SourceNode = function(line, column, srcFile, chunks) {
                 this.src = '';
                 if (chunks) {
                     this.add(chunks);
@@ -2485,7 +2485,7 @@
                     return this.src;
                 }
             };
-        }
+//        }
 
 
         function castChunk(chunk, codeGen, loc) {
