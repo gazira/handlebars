@@ -1,0 +1,31 @@
+{
+    "name": "handlebars",
+    "version": "3.0.0",
+    "description": "Handlebars provides the power necessary to let you build semantic templates effectively with no frustration",
+    "keywords": [
+        "widget",
+        "modal",
+        "overlay",
+        "confirmbox",
+        "alert"
+    ],
+    "homepage": "http://www.handlebarsjs.com/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wycats/handlebars.js.git"
+    },
+    "author": "Yehuda Katz",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "engines": {
+        "node": ">=0.4.7"
+    },
+    "main": "handlebars.js",
+    "spm": {
+        "main": "handlebars.js",
+        "ignore": [
+            "components",
+            "node_modules"
+        ]
+    }
+}
